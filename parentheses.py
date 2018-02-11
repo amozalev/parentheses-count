@@ -72,6 +72,7 @@ def with_regexp(line_lst):
 if __name__ == '__main__':
     line_lst = [
         'abra((esdf)(esdf',
+        'abra((esdf(esdf',
         'abra((esdf)abc((esdf)',
         'abra((esdf)abc(hjkk(vsdf))',
         'abra((esdf)abc(hjkk(vsdf)',
